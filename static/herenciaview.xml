@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <openerp>
+        <data>
+          <record id="view_form_herencia_inherited" model="ir.ui.view">
+              <field name="name">Herencia aplicacion</field>
+              <field name="model">hr.department</field>
+              <field name="inherit_id" ref="hr.view_department_form"/>
+              <field name="arch" type="xml">
+        
+                  <field name="project_id" />
+                </field>
+                <field name="code">
+                  <field name="Is_tech" />
+                </field>
+                <field name="Description">
+                </field>
+              </field>
+          </record>
+        </data>
+    </openerp>
